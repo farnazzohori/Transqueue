@@ -41,3 +41,21 @@ Submits a transaction to the queue.
   "value": 150.0
 }
 ```
+Success Response:
+{
+  "status": "success",
+  "message": "Data received for user user123",
+  "data": {
+    "username": "user123",
+    "value": 150.0,
+    "transaction_id": "172312840112395849234"
+  }
+}
+---
+Error Response (Invalid Input):
+```
+{
+  "status": "error",
+  "message": "Invalid input. You must provide a username and a numeric value."
+}
+```
