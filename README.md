@@ -42,6 +42,7 @@ Submits a transaction to the queue.
 }
 ```
 Success Response:
+```
 {
   "status": "success",
   "message": "Data received for user user123",
@@ -51,6 +52,7 @@ Success Response:
     "transaction_id": "172312840112395849234"
   }
 }
+```
 ---
 Error Response (Invalid Input):
 ```
